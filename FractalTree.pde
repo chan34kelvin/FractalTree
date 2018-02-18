@@ -7,7 +7,6 @@ public void setup()
 }
 public void draw() 
 { 
-  background(51,153,255);
   stroke(255,182,193);   
   //drawBranches(??,??,??,??);  //will add later 
   drawBranches(320,380,100,3*Math.PI/2);
