@@ -31,7 +31,6 @@ public void drawBranches(int x,int y, double branchLength, double angle)
   //line(x,y,endX3,endY3);
   if(branchLength<=smallestBranch){
   //light brown color
-  stroke(245,222,179);
   line(320,480,320,380);
   }
   else
