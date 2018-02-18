@@ -9,6 +9,7 @@ public void draw()
 { 
   stroke(255,182,193);   
   //drawBranches(??,??,??,??);  //will add later 
+  line(320,480,320,380);
   drawBranches(320,380,100,3*Math.PI/2);
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
