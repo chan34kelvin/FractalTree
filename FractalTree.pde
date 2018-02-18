@@ -8,7 +8,7 @@ public void setup()
 public void draw() 
 { 
   background(51,153,255);
-  stroke(15,255,255);   
+  stroke(255,182,193);   
   //drawBranches(??,??,??,??);  //will add later 
   drawBranches(320,380,100,3*Math.PI/2);
 } 
@@ -16,7 +16,6 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 { 
   strokeWeight(2);
   //pink color
-  stroke(255,182,193);
   double angle1 = angle + branchAngle;
   double angle2 = angle - branchAngle;
   //double angle3 = angle * branchAngle;
